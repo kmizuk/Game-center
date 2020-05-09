@@ -30,9 +30,9 @@
     getRandomImage() {
       //写真をランダムに表示する関数の定義
       const images = [
-        "Slot Machine/img/seven.png",
-        "Slot Machine/img/bell.png",
-        "Slot Machine/img/cherry.png",
+        "https://gamecenter0509.s3-ap-northeast-1.amazonaws.com/Slot+Machine/img/seven.png",
+        "https://gamecenter0509.s3-ap-northeast-1.amazonaws.com/Slot+Machine/img/bell.png",
+        "https://gamecenter0509.s3-ap-northeast-1.amazonaws.com/Slot+Machine/img/cherry.png",
       ];
       return images[Math.floor(Math.random() * images.length)];
     }
